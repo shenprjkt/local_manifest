@@ -37,8 +37,6 @@
 
  <!-- Packages -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me-lab" revision="master" clone-depth="1" />
- <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" revision="qcom" />
- <project path="packages/apps/Settings" name="pixel_packages_apps_Settings" remote="me-hub" revision="thirteen-plus" />
 
  <!-- External -->
  <project path="external/Camera" name="platform_external_Camera" remote="GrapheneOS" revision="13" />
