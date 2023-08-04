@@ -3,19 +3,26 @@
 
     <!-- Remotes -->
     <remote name="me-hub"
-            fetch="https://github.com/grindklast" />
+            fetch="https://github.com/anandhan07/" />
 
     <remote name="me-lab"
             fetch="https://gitlab.com/anandhan07/" />
+
+    <remote name="iusmac"
+            fetch="https://github.com/iusmac/" />
 
     <remote name="uni"
             fetch="https://github.com/GhostMaster69-dev" />
 
  <!-- Trees -->
- <project path="device/xiaomi/vince" name="havoc_device_xiaomi_vince" remote="me-hub" revision="eleven" clone-depth="1" />
- <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince-2" remote="me-hub" revision="eleven" clone-depth="1" />
+ <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="me-hub" revision="pixelexperience-13.0" clone-depth="1" />
+ <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="me-hub" revision="pixelexperience-13.0" clone-depth="1" />
  <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="uni" revision="master" clone-depth="1" />
 
+ <!-- Packages -->
+ <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me-lab" revision="master" clone-depth="1" />
+ <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" revision="qcom" />
+    
  <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="me-lab" revision="17" clone-depth="1" />
 
