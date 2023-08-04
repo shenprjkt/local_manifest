@@ -8,22 +8,44 @@
     <remote name="me-lab"
             fetch="https://gitlab.com/anandhan07/" />
 
+    <remote name="aospa-vince"
+            fetch="https://github.com/aospa-vince/" />
+
     <remote name="iusmac"
             fetch="https://github.com/iusmac/" />
 
-    <remote name="uni"
-            fetch="https://github.com/GhostMaster69-dev" />
+    <remote name="GrapheneOS"
+            fetch="https://github.com/GrapheneOS/" />
+
+ <!-- Remove Projects -->
+ <remove-project name="frameworks_base" />
+ <remove-project name="frameworks_native" />
+ <remove-project name="frameworks_opt_telephony" />
+ <remove-project name="packages_apps_Settings" />
+ <remove-project name="vendor_pixel-framework" />
 
  <!-- Trees -->
  <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="me-hub" revision="pixelexperience-13.0" clone-depth="1" />
  <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="me-hub" revision="pixelexperience-13.0" clone-depth="1" />
- <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="uni" revision="master" clone-depth="1" />
+ <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="aospa-vince" revision="topaz" clone-depth="1" />
+
+ <!-- Clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="me-lab" revision="17" clone-depth="1" />
+
+ <!-- Framework -->
+ <project path="frameworks/base" name="pixel_frameworks_base" remote="me-hub" revision="thirteen-plus" />
+ <project path="frameworks/native" name="pixel_frameworks_native" remote="me-hub" revision="thirteen-plus" />
+ <project path="frameworks/opt/telephony" name="pixel_frameworks_opt_telephony" remote="me-hub" revision="thirteen" />
 
  <!-- Packages -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me-lab" revision="master" clone-depth="1" />
  <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" revision="qcom" />
-    
- <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="me-lab" revision="17" clone-depth="1" />
+ <project path="packages/apps/Settings" name="pixel_packages_apps_Settings" remote="me-hub" revision="thirteen-plus" />
+
+ <!-- External -->
+ <project path="external/Camera" name="platform_external_Camera" remote="GrapheneOS" revision="13" />
+
+ <!-- Vendor -->
+ <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="me-hub" revision="thirteen-plus" />
 
 </manifest>
