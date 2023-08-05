@@ -4,6 +4,9 @@
  <!-- Cosmic clang -->
  <project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
 
+ <!-- Remove Projects -->
+ <remove-project name="packages/apps/Aperture" />
+
  <!-- Kernel -->
  <project path="kernel/xiaomi/vince" name="OctaviOS-Devices/kernel_xiaomi_vince" remote="github" revision="13" clone-depth="1" />
 
