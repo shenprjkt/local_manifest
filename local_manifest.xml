@@ -9,8 +9,8 @@
             fetch="https://gitlab.com/anandhan07/" />
 
  <!-- Trees -->
- <project path="device/xiaomi/vince" name="device_xiaomi_kenzo" remote="me-hub" revision="R" clone-depth="1" />
- <project path="vendor/xiaomi/vince" name="vendor_xiaomi_kenzo" remote="me-hub" revision="11" clone-depth="1" />
+ <project path="device/xiaomi/vince" name="device_xiaomi_kenzo" remote="me-hub" revision="lineage-18.1" clone-depth="1" />
+ <project path="vendor/xiaomi/vince" name="vendor_xiaomi_kenzo" remote="me-hub" revision="lineage-18.1" clone-depth="1" />
  <project path="kernel/xiaomi/vince" name="kernel_xiaomi_kenzo" remote="me-hub" revision="bloss-shinelotus" clone-depth="1" />
     
  <!-- Clang -->
