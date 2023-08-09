@@ -8,6 +8,6 @@
  <project path="kernel/xiaomi/vince" name="shenprjkt/android_kernel_xiaomi_vince" remote="github" revision="master" clone-depth="1" />
 
  <!-- Device -->
- <project path="device/xiaomi/vince" name="shenprjkt/device_xiaomi_vince" remote="github" revision="alpha-13" clone-depth="1" />
+ <project path="device/xiaomi/vince" name="Miku-Lab/device_xiaomi_vince" remote="github" revision="13" clone-depth="1" />
  <project path="vendor/xiaomi/vince" name="AOSP-Silicon/vendor_xiaomi_vince" remote="github" revision="alpha-13" clone-depth="1" />
 </manifest>
